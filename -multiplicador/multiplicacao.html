@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="multiplicacao.css">
+  <script src="multiplicacao.js"></script>
+  <title>multiplicação</title>
+</head>
+<body onload="carregar()">
+  <header>
+    <h1>Multiplicação</h1>
+    jhjbkchcgxgchvjbk
+  </header>
+  <section>
+    <div style="text-align: left;">
+      <div>
+        <p>
+          Número.:<input type="number" id="n1"><input class="bttP" type="button" id="BR" onclick="resultado()" value="Resultado">
+        </p>
+      </div>
+      <div>
+        <p>
+          Resultad é:
+        </p>
+        <select id="r1" size="20">
+        </select>
+      </div>
+      <div class="calculadoraSimples">
+        <input type="number" placeholder="Escreva o primeiro número" id="numero1"><br>
+        <input type="number" placeholder="escreva o segundo número" id="numero2"><br>
+        <input class="btn-calculadora"type="button" value="+" onclick="adicao()">
+        <input class="btn-calculadora"type="button" value="-" onclick="subtracao()">
+        <input class="btn-calculadora"type="button" value="X" onclick="multiplicacao()">
+        <input class="btn-calculadora"type="button" value="÷"onclick="dividir()">
+        <p>
+          O resuldado é: <span id="r2"></span>
+        </p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <h2>©gabriel</h2>
+  </footer>
+<script>
+var numero1 = document.getElementById('numero1')
+var numero2 = document.getElementById('numero2')
+var r2 = document.getElementById('r2')
+function adicao(){
+r2.innerHTML = `${numero1.value} + ${numero2.value} = ${Number(numero1.value)+Number(numero2.value)}`
+}
+function subtracao(){
+r2.innerHTML = `${numero1.value} - ${numero2.value} = ${Number(numero1.value)-Number(numero2.value)}`
+}
+function multiplicacao(){
+r2.innerHTML = `${numero1.value} X ${numero2.value} = ${Number(numero1.value)*Number(numero2.value)}`
+}
+function dividir(){
+r2.innerHTML = `${numero1.value} ÷ ${numero2.value} = ${Number(numero1.value)/Number(numero2.value)}`
+}
+</script>
+</body>
+</html>
