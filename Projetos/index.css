@@ -1,0 +1,41 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background-color: #303030;
+  font-family: Sans-Serif;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom:5px;
+  justify-content: top;
+}
+header{
+text-align: center;
+color: white;
+font-size: 50px;
+padding: 15px;
+}
+div{ /*centralizar a div*/
+  background-color: white;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  width: 85%;
+}
+h2{
+  text-align: left;
+}
+p{
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom:5px;
+}
+}
+footer{
+  font-style: italic;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
