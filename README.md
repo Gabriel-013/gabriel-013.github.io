@@ -1,2 +1,2 @@
-# teste-de-reposit-rio
+# teste-de-repositório
 Meu primeiro repositório.
