@@ -23,12 +23,6 @@ width: 300px;/*largura*/
 border-radius: 15px;
 margin: auto;
 }
-.bttP {
-background-color: black;
-color: white;
-border-radius: 20px;
-box-shadow: 3px 2px 1px white;
-}
 img {
 width: 150px;
 padding: 15px;
@@ -38,18 +32,7 @@ border-radius: 100px;
 nav {
 text-decoration: none;
 }
-.calculadoraSimples{
-padding: 20px;
-margin: 20px;
-border-top: 2px solid grey;
-}
-.btn-calculadora{
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  margin: 5px;
-}
+
 footer{
 font-style: italic;
 color: white;
